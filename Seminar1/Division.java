@@ -14,5 +14,6 @@ public class Division {
     } catch (ArithmeticException e) {
       System.out.println("Деление на ноль недопустимо");
     }
+    sc.close();
   }
 }

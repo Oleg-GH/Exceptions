@@ -11,5 +11,6 @@ public class UserAge {
     } catch (NumberFormatException e) {
       System.out.println("Некорректный ввод");
     }
+    sc.close();
   }
 }
